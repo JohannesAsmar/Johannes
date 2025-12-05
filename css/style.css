@@ -1,1 +1,39 @@
 /* Denna fil skall innehålla din CSS kod */
+
+#wrapper{
+    margin: 0px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "hd hd"
+    "nv nv"
+    "sc sc"
+    "dv1 dv2";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% 10% 2fr 2fr;
+}
+
+#startpageh{
+    grid-area: hd;
+    background-color: aquamarine;
+}
+
+#startnav{
+    grid-area: nv;
+    background-color: bisque;
+}
+
+#startsec{
+    grid-area: sc;
+    background-color: blue;
+}
+
+#startbild1{
+    grid-area: dv1;
+    background-color: brown;
+}
+
+#startbild2{
+    grid-area: dv2;
+    background-color: burlywood;
+}
